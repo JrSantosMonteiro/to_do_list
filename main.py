@@ -46,7 +46,7 @@ def commands(command): #check wich command the user typed
     elif command == 'clear':
         system('cls')
     
-    elif command == 'q': #DO THIS 
+    elif command == 'q': #check if user want to end the loop
         print('Leaving')
         return False
     
